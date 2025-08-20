@@ -1,2 +1,4 @@
-# FindMeStat
-Public source code for Find Me Stat geolocational application
+# FindMeStat README.md
+
+Public source code for Find Me Stat, a geolocational application.
+
