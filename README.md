@@ -80,17 +80,11 @@ No additional entitlements are required.
 
 ## Screen Shots
 
-iPhone 16 Map
+[iPhone 16 Map Screenshot](screenshots/FindMeState-iPhoneMap.png)
 
-![Map Flag](screenshots/FindMeState-iPhoneMap.png)
+[iPhone 16 Detail Screenshot](screenshots/FindMeState-iPhoneDetails.png)
 
+[iPad Map Screenshot](screenshots/FindMeState-iPadMap.png)
 
-iPhone 16 Detail
-
-![Map Flag](screenshots/FindMeState-iPhoneDetails.png)
-
-iPad Map
-
-![Map Flag](screenshots/FindMeState-iPadMap.png)
-
+[iPad Details Screenshot](screenshots/FindMeState-iPadDetails.png)
 
