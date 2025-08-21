@@ -60,10 +60,6 @@ final class LocationManager: NSObject, ObservableObject, CLLocationManagerDelega
 
     /// Request permission (When In Use) and begin updates if possible.
     func request() {
-        guard CLLocationManager.locationServicesEnabled() else {
-            errorMessage = "Location Services are disabled in Settings."
-            return
-        }
         switch manager.authorizationStatus {
         case .notDetermined:
             manager.requestWhenInUseAuthorization()
