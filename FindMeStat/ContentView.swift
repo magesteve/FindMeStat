@@ -28,10 +28,12 @@ struct ContentView: View {
 
     /// Controls the sheet presentation when user taps the flag
     @State private var showDetails = false
+    
+    /// Controls the sheet presentation when user taps the about icon
+    @State private var showAbout = false
 
     // MARK: - Body
 
-    // Main Content View
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             FindMeStatMapView(
@@ -41,6 +43,7 @@ struct ContentView: View {
             )
             
             VStack(spacing: 8) {
+                // Center on location button
                 Button {
                     if let loc = locationManager.lastLocation {
                         withAnimation(.easeInOut) {
@@ -55,6 +58,17 @@ struct ContentView: View {
                         .background(.thinMaterial, in: Circle())
                 }
                 .accessibilityLabel("Center on my location")
+
+                // About button
+                Button {
+                    showAbout = true
+                } label: {
+                    Image(systemName: "info.circle.fill")
+                        .font(.system(size: 24, weight: .regular))
+                        .padding(8)
+                        .background(.thinMaterial, in: Circle())
+                }
+                .accessibilityLabel("About FindMeStat")
             }
             .padding()
         }
@@ -69,6 +83,37 @@ struct ContentView: View {
                     .presentationDetents([.fraction(0.25)])
             }
         }
+        .sheet(isPresented: $showAbout) {
+            AboutView()
+                .presentationDetents([.medium])
+        }
     }
+}
 
+// MARK: - About View
+
+struct AboutView: View {
+    var body: some View {
+        VStack(spacing: 20) {
+            Capsule()
+                .frame(width: 36, height: 5)
+                .foregroundStyle(.secondary)
+                .padding(.top, 8)
+
+            Text("About FindMeStat")
+                .font(.title3).bold()
+
+            Text("Written by Steve Sheets for demonstration purposes.")
+                .multilineTextAlignment(.center)
+                .padding(.horizontal)
+
+            Link("Full open source code on GitHub",
+                 destination: URL(string: "https://github.com/magesteve/FindMeStat")!)
+                .font(.body.weight(.semibold))
+                .foregroundColor(.blue)
+
+            Spacer()
+        }
+        .padding()
+    }
 }
