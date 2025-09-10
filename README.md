@@ -72,7 +72,13 @@ No additional entitlements are required.
 
 ---
 
-##Credits
+## Privacy Policy
+
+FindMeStat respects your privacy. The app uses your device’s location services solely to display your current position and related GPS information. This data is processed entirely on your device and is never collected, stored, or transmitted to any server. FindMeStat does not gather any personal information and does not share any data with third parties.
+
+---
+
+## Credits
 - Built with SwiftUI, MapKit, and Core Location.
 - Created by **Steve Sheets**, 8/20/25.
 
