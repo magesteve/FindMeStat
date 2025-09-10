@@ -27,6 +27,9 @@
 		AA5E61922E5627B800000610 /* FindMeStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMeStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E619F2E5627BA00000610 /* FindMeStatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeStatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E61A92E5627BA00000610 /* FindMeStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF0543D2E71FDA00003E30A /* CONTACT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTACT.md; sourceTree = "<group>"; };
+		AAF0543E2E71FDAB0003E30A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AAF0543F2E71FDAB0003E30A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +91,9 @@
 		AA5E61892E5627B800000610 = {
 			isa = PBXGroup;
 			children = (
+				AAF0543D2E71FDA00003E30A /* CONTACT.md */,
+				AAF0543E2E71FDAB0003E30A /* LICENSE */,
+				AAF0543F2E71FDAB0003E30A /* README.md */,
 				AA5E61942E5627B800000610 /* FindMeStat */,
 				AA5E61A22E5627BA00000610 /* FindMeStatTests */,
 				AA5E61AC2E5627BA00000610 /* FindMeStatUITests */,
@@ -416,7 +422,7 @@
 				INFOPLIST_FILE = FindMeStat/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "FInd Me Stat";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show your position on the map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Turning on location will allow us to show your current locations.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,7 +454,7 @@
 				INFOPLIST_FILE = FindMeStat/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "FInd Me Stat";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show your position on the map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Turning on location will allow us to show your current locations.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
