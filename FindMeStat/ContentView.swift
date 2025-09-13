@@ -69,6 +69,17 @@ struct ContentView: View {
                         .background(.thinMaterial, in: Circle())
                 }
                 .accessibilityLabel("About FindMeStat")
+
+                // Details button
+                Button {
+                    showDetails = true
+                } label: {
+                    Image(systemName: "questionmark.circle.fill")
+                        .font(.system(size: 24, weight: .regular))
+                        .padding(8)
+                        .background(.thinMaterial, in: Circle())
+                }
+                .accessibilityLabel("Details FindMeStat")
             }
             .padding()
         }
