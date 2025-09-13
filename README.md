@@ -2,6 +2,8 @@
 
 A tiny SwiftUI + MapKit demo that shows your current location with a red flag pin, recenters on demand, and reveals a sliding details sheet with formatted GPS info and a reverse-geocoded address.
 
+**Support** can be found at https://github.com/magesteve/FindMeStat/blob/main/SUPPORT.md
+
 ## Features
 
 - SwiftUI `Map` with custom “flag” annotation at the user’s location  

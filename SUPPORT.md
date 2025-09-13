@@ -1,4 +1,4 @@
-# CONTACT.md
+# SUPPORT.md
 
 FindMeStat is a tiny MapKit application that shows your current location with a red flag pin, recenters on demand, and reveals a sliding details sheet with formatted GPS info and a reverse-geocoded address.
 
